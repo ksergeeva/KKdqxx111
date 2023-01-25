@@ -6,7 +6,7 @@ public class Randoms implements Iterable<Integer> {
     public int min;
     public int max;
 
-    public Randoms(int min, int max) {
+    protected Randoms(int min, int max) {
         this.min = min;
         this.max = max;
         this.random = new Random();
